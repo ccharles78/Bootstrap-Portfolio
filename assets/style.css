@@ -14,7 +14,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 960px;
+  
   margin: 0 auto;
   clear: both;
 }
@@ -121,7 +121,7 @@ h3, h2 {
 /* main */
 
 #main-container {
-  padding-top: 130px;
+  padding-top: 120px;
   min-height: calc(100vh - 70px);
 }
 
@@ -221,3 +221,24 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+#sideBar {
+    /* width: 210px; */
+    padding: 40px 30px 40px 30px;
+    background-color: white;
+    box-shadow: 4px 4px 15px 2px #333333;
+    float: right;
+    margin-bottom: 50px;
+}
+
+#gitHub {
+  background-image: url("images/github.png");
+  background-size: contain;
+  transition: opacity .3s ease;
+}
+#linkedinIconBlack {
+  background-image: url("images/linkedin.png");
+  background-size: contain;
+  transition: opacity .3s ease;
+}
+
